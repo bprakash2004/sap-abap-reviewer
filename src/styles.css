@@ -1,0 +1,9 @@
+
+        * { box-sizing: border-box; }
+        ::-webkit-scrollbar { width: 6px; }
+        ::-webkit-scrollbar-track { background: #060c18; }
+        ::-webkit-scrollbar-thumb { background: #1a3050; border-radius: 3px; }
+        @keyframes fadeIn {
+        from { opacity: 0; }
+        to { opacity: 1; }
+        }
