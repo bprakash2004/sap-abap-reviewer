@@ -40,7 +40,7 @@ export default function App() {
   const [result, setResult] = useState(null);
   const [error, setError] = useState("");
   const [activeTab, setActiveTab] = useState("all");
-  const [apiKey, setApiKey] = useState("process.env.REACT_APP_GROQ_KEY");
+  const [apiKey, setApiKey] = useState("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");
   const fileRef = useRef();
 
   const handleFileUpload = async (e) => {
